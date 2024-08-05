@@ -10,7 +10,7 @@ const example = {
       server.route([
         {
           method: 'GET',
-          path: '/example',
+          path: '/test',
           ...exampleFindAllController
         },
         {
